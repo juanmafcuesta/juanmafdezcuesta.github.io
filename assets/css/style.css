@@ -873,22 +873,3 @@ section {
     padding-right: 20px 15px;
   }
 }
-
-
-/*--------------------------------------------------------------
-# MODE DARK OR LIGHT
---------------------------------------------------------------*/
-
-/* Light mode */
-@media (prefers-color-scheme: light) {
-    #header {
-		background: red;
-    }
-}
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-	#header {
-		background: blue;
-    }
-}
